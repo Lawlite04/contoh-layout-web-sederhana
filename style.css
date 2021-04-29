@@ -1,0 +1,76 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+.my-bg{
+    background-color: rgba(66, 66, 66, 0.377);
+    border-radius: 2em;
+}
+.my-bg3{
+    background-color: rgba(66, 66, 66, 0.651);
+    border-radius: 2%;
+}
+
+/* navbar */
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.carousel-inner img{
+    height: 700px;
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+    bottom: 35%;
+}
+
+/* news */
+.all{
+    display: none;
+}
+.all.show{
+    display: block;
+}
+
+/* about */
+#about{
+    padding-top: 2em;
+    min-height: 300px;
+    background-color: whitesmoke;
+}
+/* end */
+
+#jadwal{
+    background-image: url('./img/about/gifi/COVID-19-Coronavirus-Animation.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.daftar{
+    padding: 20px;
+    height: 100%;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+/* footer */
+footer{
+    line-height: 30px;
+}
+
+@media (max-width: 1024px){
+    
+    .carousel-inner img{
+        height: 600px;
+    }
+}
+@media (max-width: 576px){
+    .carousel-inner img{
+        height: 300px;
+    }
+}
